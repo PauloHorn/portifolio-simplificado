@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -31,9 +32,9 @@
             <h1>Olá! Sou o Paulo Víctor Horn</h1>
             <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
             <p>Estou sempre me desafiando com novos projetos e buscando um feedback na comunidade de programação, além de compartilhar meus conhecimentos.</p>
-            <p>Ah, também sou fã de jogos, filmes, séries e animes</p>
+            <p>Ah, também sou fã de jogos, filmes, séries, livros, animes e quadrinhos.</p>
 
-            <ul>
+            <ul class="redes-sociais">
                 <li>
                     <a href="https://www.linkedin.com/in/paulo-v%C3%ADctor-horn-527b81207/" title="Ir para o meu LinkedIn" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
@@ -67,8 +68,11 @@
         </div>
 
         <div class="container-foto">
-            <div class="foto sombra-interna">           
+            <div class="foto sombra-interna">
+              <picture>
+                <source media="(max-width: 650px)" srcset="./src/imagens/foto-para-perfis-pq-sem-fundo.png" type="image/png">
                 <img src="./src/imagens/foto-para-perfis-sem-fundo.png" alt="Foto do portifólio do Paulo Víctor Horn">
+              </picture>
             </div>
         </div>
     </section>
