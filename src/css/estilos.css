@@ -6,14 +6,15 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
-    width: 1120px; /*para o margin auto funcionar, precisamos definir uma largura para nossa tela*/
+    width: 100%; /*para o margin auto funcionar, precisamos definir uma largura para nossa tela*/
     background: linear-gradient(150deg, #000000, #9e00ff);
-    background-size: 120% 120%;
+    background-size: 100% 120%;
 }
 
 .cabecalho {
     display: flex;/*Usa o conceito de pais e filhos deixando os itens dentro do header um do lado do outro*/
-    justify-content: space-between;
+    justify-content: center;
+    gap: 200px;
     align-items: center; /*alinhamento vertical*/
     padding: 30px 15px;
 }
